@@ -4,84 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NPR Website</title>
-    <link rel="stylesheet" href="npr.css">
+    <link rel="stylesheet" href="css/npr.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div id="header" class="flex">
-            <div class="main-column flex">
+            <div class="main-column flex" >
                 <div id="logo">
-                    <img src="https://media.npr.org/chrome_svg/npr-logo.svg" alt="NPR Logo">
+                    <img src="https://media.npr.org/chrome_svg/npr-logo.svg" alt="NPR logo">
                 </div>
                 <div id="global">
                     <ul>
                         <li><a href="#">Sign In</a></li>
-                        <li><a href="#">NPR Shop</a></li>                    
-                        <li class="red-button"><a href="#">Donate Now</a></li>                
+                        <li><a href="#">NPR Shop</a></li>
+                        <li class="red-button"><a href="#">Donate Now</a></li>
                     </ul>
                 </div>
             </div>
             <div class="side-column">
 
             </div>
+            
         </div>
     </div>
     <div id="navigation">
         <div class="container">
             <ul>
                 <li><a href="#">news</a></li>
-                <li><a href="#">arts & life</a></li>                
-                <li><a href="#">music</a></li>                
-                <li><a href="#">shows & podcast</a></li>  
+                <li><a href="#">arts & life</a></li>
+                <li><a href="#">music</a></li>
+                <li><a href="#">shows &  podcast</a></li>
                 <li><a href="#">search</a></li>
             </ul>
         </div>
+        
     </div>
-    <div id="content": class="container">
-        <div class="main-column" id="main">
-            <div id="exclusive" class="flex content-box">
-                <div class="content-body">
-                    <h5>INVESTIGATIONS</h5>
-                    <h2>One Man's COVID-19 Death Raises The Worst Fears Of Many People With Disabilities</h2>
-                    <p>The hospital said it made a humane decision to end treatment. Michael Hickson's widow says doctors ended his care because they underestimated the life of a man with significant disabilities.</p>
-                </div>
-                <div class="content-img">
-                    <img src="https://media.npr.org/assets/img/2020/07/31/mh-img_0531_wide-23fb7c2816775ba86bab7182e9f84b97c44d912b-s900-c85.jpg" alt="">
+    <div id="content" class="container flex">
+        <div id="main-content">
+            <div class="main-column" id="featured">
+                <div id="exclusive" class="flex content-box">
+                    <div class="content-body">
+                        <h5>INVESTIGATIONS</h5>
+                        <h2>One Man's COVID-19 Death Raises The Worst Fears Of Many People With Disabilities</h2>
+                        <p>The hospital said it made a humane decision to end treatment. Michael Hickson's widow says doctors ended his care because they underestimated the life of a man with significant disabilities.</p>
+                    </div>
+                    <div class="content-img">
+                        <img src="https://media.npr.org/assets/img/2020/07/31/mh-img_0531_wide-23fb7c2816775ba86bab7182e9f84b97c44d912b-s900-c85.jpg" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="flex news-box">
-                <div id="box-1">
-                    <div class="content-img">
-                        <img src="https://media.npr.org/assets/img/2020/07/31/isaias-cone-uncertainty_wide-38fe1696330c4323c128ad52d638ccf4c519221e-s700-c85.png" alt="">
+            <div id="featured-news" class="flex">
+                <div class="card">
+                    <img src="https://media.npr.org/assets/img/2020/08/07/ap_20220401814146_wide-8b13756b7edd2e9b6738e4abac0bc59e26520605-s700-c85.jpg" alt="">
+                    <div class="card-body">
+                        <p class="box-label">POLITICS</p>
+                        <h4>'We're Risking Our Lives': Front-Line Federal Workers Sue For Hazard Pay</h4>
                     </div>
-                    <div class="content-body box-body">
-                        <h5>WEATHER</h5>
-                        <h2>Florida's Gov. DeSantis Declares Emergency As Hurricane Isaias Closes In</h2>
+                    
+                </div>
+                <div class="card">
+                    <img src="https://media.npr.org/assets/img/2020/08/07/gettyimages-12106229931_wide-56ba56721e1c98212adffc33bc7c7720dcbf2d9d-s700-c85.jpg" alt="">
+                    <div class="card-body">
+                        <p class="box-label">POLITICS</p>
+                    <h4>'We're Risking Our Lives': Front-Line Federal Workers Sue For Hazard Pay</h4>
                     </div>
                 </div>
-                <div id="box-2">
-                    <div class="content-img">
-                        <img src="https://media.npr.org/assets/img/2020/07/31/gettyimages-1227274700_wide-25614a9a77e6c5d40ace0107c1e8157d6553518f-s700-c85.jpg" alt="">
-                    </div>
-                    <div class="content-body box-body">
-                        <h5>SHOTS - HEALTH NEWS</h5>
-                        <h2>COVID-19 Hospital Data System That Bypasses CDC Plagued By Delays, Inaccuracies</h2>
+                <div class="card">
+                    <img src="https://media.npr.org/assets/img/2020/08/07/ap_20213515254701_wide-d89da39f6a9ddd1875bc02f61823b40c0ca4db0c-s700-c85.jpg" alt="">
+                    <div class="card-body">
+                        <p class="box-label">POLITICS</p>
+                    <h4>'We're Risking Our Lives': Front-Line Federal Workers Sue For Hazard Pay</h4>
                     </div>
                 </div>
-                <div id="box-3">
-                    <div class="content-img">
-                        <img src="https://media.npr.org/assets/img/2020/07/31/ap_20213664206566_wide-9651391699a24c9d62a0bff43cc4ea7e01eb97ea-s700-c85.jpg" alt="">
+            </div>
+            <!-- station finder -->
+            <div id="station-finder" class="shadow">
+                <h3>Pick Your NPR Station</h3>
+                <p>Looking for your favorite local station's stories or live stream?</p>
+                <a href="#">STATION FINDER</a>
+            </div>
+            <!-- end of station finder -->
+            <div class="main-column" >
+                <div class="flex content-box">
+                    <div class="content-body">
+                        <h5>INVESTIGATIONS</h5>
+                        <h2>One Man's COVID-19 Death Raises The Worst Fears Of Many People With Disabilities</h2>
+                        <p>The hospital said it made a humane decision to end treatment. Michael Hickson's widow says doctors ended his care because they underestimated the life of a man with significant disabilities.</p>
                     </div>
-                    <div class="content-body box-body">
-                        <h5>ELECTIONS</h5>
-                        <h2>Citing Election Delay Tweet, Influential Trump Ally Now Demands His Re-Impeachment</h2>
+                    <div class="content-img">
+                        <img src="https://media.npr.org/assets/img/2020/08/07/gettyimages-578541424_wide-86ca42c76976e37e44f8dd362ba19daf2007f843-s900-c85.jpg" alt="">
                     </div>
                 </div>
+            </div>
+            <!-- here is the big box -->
+            <div class="big-card">
+                <img src="https://media.npr.org/assets/img/2020/08/07/southernrap_npr_essay4_jahdai_kilkenny_wide-d3dfc23367f93b34b604605aed7b9976b2b0b45a-s1900-c85.jpeg" alt="">
+                <p>THE SOUTH GOT SOMETHING TO SAY: A CELEBRATION OF SOUTHERN RAP</p>
+                <h2>Before The South Had Something To Say: How A Region Discovered Its Voice</h2>
+                <p>In the early 1990s, you might not think rappers from Atlanta had much in common with rappers from New Orleans or Miami. So when and how did "Southern hip-hop" get to be recognized as an entity?</p>
+                <ul>
+                    <li><a href="#">The South Got Something To Say' Is A Celebratory </a></li>
+                    <li><a href="#">The 5 Best Southern Rap Tiny Desk Concerts</a></li>
+                </ul>
+            </div>
+            <div class="flex" id="more">
+                <h2>more from</h2>
+                <a href="#">news</a>
+                <a href="#">arts & life</a>
+                <a href="#">music</a>
+            </div>
+            <div class="content-box flex" id="footer">
+                <div class="content-body footer-content">
+                    <p>READ & LISTEN</p>
+                    <a href="#">Home</a>
+                    <a href="#">News</a>
+                    <a href="#">Arts & Life</a>
+                    <a href="#">Music</a>
+                    <a href="#">Podcasts</a>
+                    <a href="#">Programs</a>
+                </div>
+                <div class="content-body footer-content">
+                    <p>CONNECT</p>
+                    <a href="#">Newsletters</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Help</a>
+                </div>
+                <div class="content-body footer-content">
+                    <p>ABOUT NPR</p>
+                    <a href="#">Overview</a>
+                    <a href="#">Finances</a>
+                    <a href="#">People</a>
+                    <a href="#">Press</a>
+                    <a href="#">Public Editor</a>
+                    <a href="#">Corrections</a>
+                </div>
+                <div class="content-body footer-content">
+                    <p>GET INVOLVED</p>
+                    <a href="#">Support Public Radio</a>
+                    <a href="#">Sponsor NPR</a>
+                    <a href="#">NPR Careers</a>
+                    <a href="#">NPR Shop</a>
+                    <a href="#">NPR Events</a>
+                    <a href="#">Visit NPR</a>
+                </div> 
+            </div>
+            <div class="content-box flex" id="footer-bottom">
+                <a href="#">terms of use</a>
+                <a href="#">privacy</a>
+                <a href="#">your privacy choices</a>
+                <a href="#">text only</a>
+                <a>© 2020 npr</a>
             </div>
         </div>
-        <div class="side-column" id="side">
-
+        <div class="side-column" id="side" >
+            <img src="https://tpc.googlesyndication.com/simgad/11455247543227463674" alt="">
+        </div>
         </div>
     </div>
 </body>
